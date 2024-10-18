@@ -232,6 +232,19 @@ linters:
     linter_rules_configuration_url: https://github.com/codespell-project/codespell?tab=readme-ov-file#using-a-config-file
     linter_rules_inline_disable_url: https://github.com/codespell-project/codespell?tab=readme-ov-file#inline-ignore
     linter_speed: 3
+    file_extensions:
+      - .md
+      - .mdx
+      - .markdown
+      - .html
+      - .htm
+      - .rst
+      - .txt
+      - .json
+      - .jsonc
+      - .json5
+      - .yaml
+      - .yml
     config_file_name: .codespellrc
     cli_config_arg_name: --config
     cli_help_arg_name: --help
